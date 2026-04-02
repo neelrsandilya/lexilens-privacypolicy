@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LexiLens Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1a1a1a; }
+    h1 { font-size: 28px; margin-bottom: 12px; }
+    h2 { font-size: 20px; margin-top: 24px; }
+    p { margin: 12px 0; }
+    ul { margin: 10px 0 10px 20px; }
+  </style>
+</head>
+<body>
+  <h1>LexiLens Privacy Policy</h1>
+  <p>Last updated: April 2026</p>
+
+  <h2>What LexiLens does</h2>
+  <p>LexiLens lets you highlight or select text on a page, shows an inline meaning popup, and optionally runs on-device OCR for screen selections.</p>
+
+  <h2>Data we collect</h2>
+  <p><strong>We do not collect, store, sell, or share personal data.</strong></p>
+  <ul>
+    <li>Selected text stays in the browser. It is only sent to <code>https://api.dictionaryapi.dev/</code> to fetch a definition.</li>
+    <li>OCR is performed locally using the bundled Tesseract engine.</li>
+    <li>Your saved words and enable/disable toggle are stored only in <code>chrome.storage.local</code> on your device.</li>
+  </ul>
+
+  <h2>Permissions explained</h2>
+  <ul>
+    <li><strong>activeTab / scripting / &lt;all_urls&gt;</strong>: Needed to read the text you highlight and render the inline popup. Runs only on user action.</li>
+    <li><strong>offscreen</strong>: Runs OCR in a hidden offscreen document to avoid impacting the visible page.</li>
+    <li><strong>storage</strong>: Saves your saved words list and the on/off setting locally.</li>
+    <li><strong>Host permission: api.dictionaryapi.dev</strong>: Used solely to fetch definitions.</li>
+  </ul>
+
+  <h2>Analytics</h2>
+  <p>No analytics or tracking are used.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions or requests about privacy, contact the developer.</p>
+</body>
+</html>
